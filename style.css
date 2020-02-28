@@ -433,3 +433,43 @@ body{
 	background-color: #222;
 
 }
+@media(max-width: 1050px){
+
+
+}
+@media(max-width: 850px){
+	#box6-more{
+		width: 100%;
+		margin: 0;
+	}
+
+}
+@media(max-width: 500px){
+	.box{
+		width: 500px;
+	}
+	#top-menu{
+		width: 500px;
+	}
+	#top{
+		width: 500px;
+	}
+	.middle{
+		width: 500px;
+	}
+	
+@media(max-width: 770px){
+	 #box-title b{
+	 	display: none;
+
+	 }
+}
+@media(max-width: 640px){
+	 #box-title b{
+	 	display: none;
+
+	 }
+	 #box2-title img{
+	 	display: none;
+	 }
+
