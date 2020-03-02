@@ -1,4 +1,4 @@
-@font-face{
+s@font-face{
 	font-family: font1;
 	src: url("1.ttf");
 }
@@ -473,3 +473,4 @@ body{
 	 	display: none;
 	 }
 
+}
