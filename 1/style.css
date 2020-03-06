@@ -1,0 +1,71 @@
+@font-face{
+	font-family: gg;
+	src: url("17668.otf");
+
+}
+body{
+	margin: 0;
+}
+#top-menu{
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	background-color: rgba(0, 0, 13,0.1);
+	width: 100%;
+	height: 40px;
+
+}
+.top-menu-btn{
+	color: #aaa;
+	display: inline-block; 
+	height: 40px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: gg;
+}
+#top-menu a{
+	text-decoration: none;
+
+
+}
+.box{
+	position: relative;
+	width: 100%;
+
+}
+.box-img{
+	width: 100%;
+}
+#right-menu{
+	position: fixed;
+	right: 0;
+	z-index: 1000;
+	top: 40px;
+	bottom: 40px;
+	background-color: rgba(0, 0, 13, 0.1);
+	z-index: 1000;
+}
+.right-menu-btn{
+	height: 0;
+	width: 0;
+	border: solid 20px transparent;
+	border-bottom-color: #aaa;
+	position: relative;
+	right: 0;
+	z-index: 10000;
+	top: -20px;
+}
+.right-menu-btn:after{
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: -20px;
+	top: 20px;
+	border: 20px solid transparent;
+	border-top-color: #aaa;
+}
+
+
+}
